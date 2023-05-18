@@ -1,0 +1,25 @@
+{
+  "name": "ahua-teams-deploy-card",
+  "version": "1.0.0",
+  "description": "This action sends notification to MS Teams channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actions/hello-world-javascript-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/actions/hello-world-javascript-action/issues"
+  },
+  "homepage": "https://github.com/actions/hello-world-javascript-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.1",
+    "node-fetch": "^2.6.1"
+  }
+}

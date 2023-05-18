@@ -1,0 +1,24 @@
+name: "Teams Notification"
+description: "Send MS Teams Notification"
+inputs:
+  environment:
+    description: "release environment"
+    required: true
+    default: "Development"
+
+  status:
+    description: "status of the release pipeline"
+    required: true
+    default: "Failure"
+
+  teams-webhook-url:
+    description: "MS Teams WebHook URL"
+    required: true
+
+  storybook-url:
+    description: "Storybook URL"
+    required: true
+
+runs:
+  using: "node16"
+  main: "index.js"
