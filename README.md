@@ -9,7 +9,8 @@ To learn how this action was built, see "[Creating a JavaScript action](https://
 ```yaml
 uses: Prajwal-Neu/ahua-teams-deploy-card@main
 with:
-  environment: Development
+  environment: "Staging" or "Production"
   teams-webhook-url: ${{secrets.TEAMS_WEBHOOK_URL}}
-  status: "Failure"
+  status: "Failure" or "Success"
+  storybook-url: "Storybook URL"
 ```
